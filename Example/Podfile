@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FisrtLib_Example' do
+  pod 'FisrtLib', :path => '../'
+
+  target 'FisrtLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
